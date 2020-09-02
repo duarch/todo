@@ -1,22 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;400;500;700;900&display=swap');
+
+/* font-family: 'Noto Sans SC', sans-serif; */
+
 body {
-    background: rgb(18, 142, 158);
-    font: normal 15pt arial;
+  background: rgb(18, 142, 158);
+  font: normal 15pt arial;
 }
+
+.font {
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
 header {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 section {
-    background: white;
-    border-radius: 10px;
-    padding: 15px;
-    width: 500px;
-    margin: auto;
-    box-shadow: 3px 3px 10px rgba(0,0,0,0.363);
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
 }
 
 footer {
-    color: white;
-    text-align: center;
-    font-style: italic;
+  color: white;
+  text-align: center;
+  font-style: italic;
 }
