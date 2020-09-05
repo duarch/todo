@@ -7,8 +7,6 @@
 }
 
 body {
-  /* background: rgb(34, 77, 195); */
-
   background: rgb(45, 217, 253);
   background: linear-gradient(
       104deg,
@@ -16,4 +14,15 @@ body {
       rgba(200, 242, 251, 1) 95%
     )
     fixed; /* fixed: to gradient over entire page*/
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
