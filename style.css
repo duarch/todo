@@ -16,6 +16,23 @@ body {
     fixed; /* fixed: to gradient over entire page*/
 }
 
+.trash {
+  background-color: red;
+  color: white;
+  margin-left: 0;
+  margin-right: 1rem;
+  padding: .7em;
+}
+
+#newtask {
+  border: none;
+}
+#newtask:focus {
+  outline: none;
+}
+
+
+
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -26,3 +43,4 @@ body {
     padding-left: 0;
   }
 }
+
