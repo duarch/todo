@@ -16,12 +16,30 @@ body {
     fixed; /* fixed: to gradient over entire page*/
 }
 
+
+
+.test1 {
+  border: 2px solid orangered;
+}
+.test2 {
+  border: 2px solid lime;
+}
+.test3 {
+  border: 2px solid royalblue;
+}
+.test4 {
+  border: 2px solid red;
+  padding-left: 0;
+}
+
+
+
 .trash {
   background-color: red;
   color: white;
   margin-left: 0;
   margin-right: 1rem;
-  padding: .7em;
+  padding: 0.7em;
 }
 
 #newtask {
@@ -31,16 +49,18 @@ body {
   outline: none;
 }
 
-
+.completed {
+  color: rgb(128, 128, 128);
+  text-decoration: line-through;
+}
 
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
 
-  > .col,
-  > [class*="col-"] {
+  .col,
+  [class*="col-"] {
     padding-right: 0;
     padding-left: 0;
   }
 }
-
